@@ -1,7 +1,7 @@
 // Publish gives each encrypted release a distinct cache. Keep the previous
 // worker active if even one required page fails to download.
 var PREFIX='fieldbook:'+self.registration.scope+':';
-var SHELL=PREFIX+'shell-3af2cac2fcbf6e20e968', TILES=PREFIX+'tiles-v1', TILE_LIMIT=600;
+var SHELL=PREFIX+'shell-2884f34916b58a786dae', TILES=PREFIX+'tiles-v1', TILE_LIMIT=600;
 var PUBLISHED=true;
 var FILES=['./','index.html','map.html','index.enc', 'map.enc','mark.svg','landscape.svg',
   'manifest.webmanifest','icon-180.png','icon-512.png','_next/static/css/index.CR9cs5DH.css'];
